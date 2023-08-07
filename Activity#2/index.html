@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>My HTML Form for Raffy</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Contact Us</h1>
+        
+                <!-- Form elements go here -->
+        <form>
+            <label for="name">Name:</label> 
+            <input type="text" id="name" name="Name"/><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email"/><br>
+            <label for="message">Message:</label> <br>
+            <textarea id="message" name="message" cols="30" rows="5"></textarea><br>
+            <input type="submit" value="Submit"><br>
+      
+                      <!-- Login form -->
+        <h1>Login</h1>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="Username"><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="password" name="Password">
+            <input type="submit" value="Login"><br>
+                        
+                         <!-- Survey form -->
+        <h1>Survey</h1>
+      
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name"/><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="Age" min="1" max="99"/><br>
+
+            <label>Gender:</label> <br>
+            <input type="radio" id="male" name="Gender" value="Male"/>
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="Gender" value="Female"/>
+            <label for="female">Female</label><br>
+            <input type="radio" id="Others" name="Gender" value="Others"/>
+            <label for="others">Others</label><br>
+
+            <br><label>Which programming languages do you know ?</label><br>
+            <input type="checkbox" id="Java" name="Prog-language" value="Java">
+            <label for="languages">Java</label><br>
+            <input type="checkbox" id="JavaScript" name="Prog-language" value="JavaScript">
+            <label for="languages">JavaScript</label><br>
+            <input type="checkbox" id="Python" name="Prog-language" value="Python">
+            <label for="languages">Python</label><br>
+            <input type="checkbox" id="c#" name="Prog-language" value="c#">
+            <label for="languages">c#</label><br>
+            <input type="checkbox" id="c++" name="Prog-language" value="c++">
+            <label for="languages">c++</label><br>
+            <input type="checkbox" id="PHP" name="Prog-language" value="PHP">
+            <label for="languages">PHP</label><br>
+            <label for="Comments">Comments:</label><br>
+            <textarea id="Comments" name="Comments" rows="10" cols="30"></textarea><br>
+            <input type="submit" value="Submit"><br>
+
+        </form>
+    </body>
+</html>
